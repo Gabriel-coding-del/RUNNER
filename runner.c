@@ -16,12 +16,6 @@ char standing[][24] = {
     " <=()||()=>          "
 };
 
-char obstacle[][24] = {
-    "/####\\",
-    "|####|",
-    "\\####/"
-};
-
 int main() {
     // Initialize ncurses
     initscr();
